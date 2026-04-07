@@ -2,7 +2,7 @@
 
 > A working system for using LLMs to run and scale technical program execution in complex, ambiguous environments.
 
-This repository explores how AI can be applied to **execution systems**, not just output generation.
+This repository explores how LLMs can be used to **run execution systems**, not just generate outputs.
 
 It demonstrates how fragmented inputs (tickets, updates, meetings) can be transformed into:
 - structured program state
@@ -46,6 +46,8 @@ It includes:
 - orchestration patterns for multi-step reasoning  
 - LLM-driven automation for program management  
 - risk detection, status synthesis, and decision support
+
+These workflows are designed to reflect how AI can be applied in real execution environments—not just as a feature, but as part of the operating system for decision-making.
 
 ---
 
@@ -102,9 +104,22 @@ Program Inputs (tickets, updates, notes)
  Final Program Summary
 
 ---
+## How AI Is Used
 
+This system uses LLMs to:
+
+- synthesize structured program status from fragmented inputs  
+- detect implicit risks across updates and dependencies  
+- extract decisions and actions from discussions  
+- generate clear, actionable summaries  
+
+The goal is not just automation, but improving **signal quality and decision clarity**.
 ---
+## Closing Thought
 
+Execution in complex systems is not about more information—it’s about better structure.
+
+This project explores how AI can help create that structure.
 
 ## Author
 
