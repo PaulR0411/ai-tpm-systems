@@ -19,7 +19,7 @@ using an agent-style loop:
 
 See: `demos/end-to-end-demo.md`
 
-This demonstrates how the system processes real inputs into structured, decision-ready outputs.
+This is a concrete example of how the system processes real program inputs into structured, decision-ready outputs.
 
 ---
 
@@ -82,6 +82,19 @@ The goal is to make these situations more structured and decision-ready.
 - a generic AI demo
 
 The focus is on clarity, structure, and decision quality.
+
+
+## How AI Is Used
+
+This system uses LLMs to:
+
+- synthesize structured program status from fragmented inputs  
+- detect implicit risks across updates and dependencies  
+- extract decisions and actions from discussions  
+- generate clear, actionable summaries  
+
+The goal is not just automation, but improving **signal quality and decision clarity**.
+
 ---
 
 ## Core System Model
@@ -104,17 +117,9 @@ Program Inputs (tickets, updates, notes)
  Final Program Summary
 
 ---
-## How AI Is Used
 
-This system uses LLMs to:
-
-- synthesize structured program status from fragmented inputs  
-- detect implicit risks across updates and dependencies  
-- extract decisions and actions from discussions  
-- generate clear, actionable summaries  
-
-The goal is not just automation, but improving **signal quality and decision clarity**.
 ---
+
 ## Closing Thought
 
 Execution in complex systems is not about more information—it’s about better structure.
@@ -124,5 +129,7 @@ This project explores how AI can help create that structure.
 ## Author
 
 ## Paul R.
+
+---
 
 
