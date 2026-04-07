@@ -2,29 +2,56 @@
 
 > A working system for using LLMs to run and scale technical program execution in complex, ambiguous environments.
 
-This repository explores how AI and LLMs can be used to design and scale execution systems for complex technical programs.
+This repository explores how AI can be applied to **execution systems**, not just output generation.
 
-It focuses on:
-- agent-oriented workflows (planner → executor → evaluator)
-- orchestration of multi-step decision systems
-- LLM-driven automation for program management
-- risk detection, status synthesis, and decision support
+It demonstrates how fragmented inputs (tickets, updates, meetings) can be transformed into:
+- structured program state
+- surfaced risks
+- clear decisions
+- actionable next steps
+
+using an agent-style loop:
+**plan → execute → evaluate**
+
+---
+
+## 🚀 End-to-End Example
+
+See: `demos/end-to-end-demo.md`
+
+This demonstrates how the system processes real inputs into structured, decision-ready outputs.
+
+---
 
 ## Why I Built This
 
-In my experience running large, high-risk programs, the hardest part is not execution—it is making sense of fragmented, inconsistent signals across teams.
+In my experience running large, high-risk programs, the hardest problem is not execution—it’s making sense of fragmented, inconsistent signals across teams.
 
 I built this project to explore how AI can:
-- extract signal from noise
-- surface hidden risks
-- improve decision clarity
-- scale execution without adding overhead
+- extract signal from noise  
+- surface hidden risks  
+- improve decision clarity  
+- scale execution without adding overhead  
 
-This reflects how I think about program management in AI-native environments.
+This reflects how I approach program management in AI-native environments.
+
+---
+
+## What This Repo Shows
+
+This repository is not just a concept—it is a **system design for AI-assisted execution**.
+
+It includes:
+- agent-style workflows (planner → executor → evaluator)  
+- orchestration patterns for multi-step reasoning  
+- LLM-driven automation for program management  
+- risk detection, status synthesis, and decision support
+
+---
 
 ## Real-World Application
 
-This system reflects patterns I’ve seen in large-scale programs involving:
+This system reflects patterns from real programs involving:
 - distributed systems
 - cross-team dependencies
 - high ambiguity
@@ -38,13 +65,7 @@ The workflows in this repo mirror real scenarios:
 
 The goal is to make these situations more structured and decision-ready.
 
-## Why this exists
-
-Most AI discussions focus on models or features. This repo focuses on **execution systems**:
-- how work gets coordinated
-- how signals are extracted
-- how decisions are made
-- how ambiguity is reduced
+---
 
 ## What This Is / Isn’t
 
@@ -58,33 +79,35 @@ Most AI discussions focus on models or features. This repo focuses on **executio
 - a replacement for human judgment
 - a generic AI demo
 
-The focus is on structure, clarity, and decision quality.
+The focus is on clarity, structure, and decision quality.
+---
 
-## What’s included
+## Core System Model
 
-- system design for agent-based execution loops
-- workflows for AI-assisted program management
-- evaluation and failure mode analysis
-- demos showing LLMs applied to real program scenarios
+The system is structured around a simple but powerful loop:
 
-## Example use cases
+```text
+Program Inputs (tickets, updates, notes)
+            ↓
+          Planner
+            ↓
+    Task Decomposition
+            ↓
+         Executor
+            ↓
+   Structured Outputs
+            ↓
+        Evaluator
+            ↓
+ Final Program Summary
 
-- generating structured program status from noisy inputs
-- identifying systemic risks across teams
-- extracting decisions and actions from discussions
-- improving execution clarity in ambiguous environments
+---
 
-## Perspective
+---
 
-This project reflects a belief that the next phase of AI is not just smarter models, but **better execution systems**.
-
-
-## End-to-End Example
-
-See: `demos/end-to-end-demo.md`
-
-This demonstrates how the system processes real inputs into structured outputs using an agent-style loop (plan → execute → evaluate).
 
 ## Author
 
-Paul R.
+## Paul R.
+
+
