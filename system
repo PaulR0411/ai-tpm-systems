@@ -1,1 +1,86 @@
+# AI Program Execution Engine
 
+This document outlines a system for using LLMs to simulate and scale technical program management execution.
+
+## Objective
+
+Transform fragmented program inputs into:
+- structured status updates
+- surfaced risks
+- clear decisions
+- actionable next steps
+
+## Core System Loop
+
+### 1. Input Layer
+Inputs include:
+- engineering updates
+- Jira tickets
+- meeting notes
+- Slack discussions
+
+These inputs are often noisy, inconsistent, and incomplete.
+
+---
+
+### 2. Planner
+
+The planner decomposes the problem into tasks:
+- summarize progress
+- identify blockers
+- detect risks
+- extract decisions
+- recommend actions
+
+---
+
+### 3. Executor
+
+The executor runs LLM-assisted tasks:
+
+- status synthesis
+- risk detection
+- dependency mapping
+- action extraction
+
+---
+
+### 4. Evaluator
+
+The evaluator checks output quality:
+
+- Is the summary accurate?
+- Are risks meaningful or generic?
+- Are actions specific and useful?
+- Are assumptions clearly stated?
+
+---
+
+### 5. Output
+
+Final structured output includes:
+
+- progress summary
+- key blockers
+- risks
+- decisions needed
+- recommended actions
+
+---
+
+## System Flow
+
+```text
+Raw Inputs
+   ↓
+Planner
+   ↓
+Task Decomposition
+   ↓
+Executors
+   ↓
+Structured Outputs
+   ↓
+Evaluator
+   ↓
+Final Program Summary
