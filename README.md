@@ -1,4 +1,4 @@
-# AI TPM Systems
+# AI TPM Systems by Paul R.
 
 > A working system for using LLMs to run and scale technical program execution in complex, ambiguous environments.
 
@@ -118,14 +118,7 @@ Program Inputs (tickets, updates, notes)
             ↓
  Final Program Summary
 
----
 
----
-
-
-## Author
-
-Paul R.
 
 
 
