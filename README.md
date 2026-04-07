@@ -10,6 +10,34 @@ It focuses on:
 - LLM-driven automation for program management
 - risk detection, status synthesis, and decision support
 
+## Why I Built This
+
+In my experience running large, high-risk programs, the hardest part is not execution—it is making sense of fragmented, inconsistent signals across teams.
+
+I built this project to explore how AI can:
+- extract signal from noise
+- surface hidden risks
+- improve decision clarity
+- scale execution without adding overhead
+
+This reflects how I think about program management in AI-native environments.
+
+## Real-World Application
+
+This system reflects patterns I’ve seen in large-scale programs involving:
+- distributed systems
+- cross-team dependencies
+- high ambiguity
+- evolving requirements
+
+The workflows in this repo mirror real scenarios:
+- unclear ownership
+- dependency delays
+- incomplete requirements
+- misaligned priorities
+
+The goal is to make these situations more structured and decision-ready.
+
 ## Why this exists
 
 Most AI discussions focus on models or features. This repo focuses on **execution systems**:
@@ -17,6 +45,20 @@ Most AI discussions focus on models or features. This repo focuses on **executio
 - how signals are extracted
 - how decisions are made
 - how ambiguity is reduced
+
+## What This Is / Isn’t
+
+**This is:**
+- a system design for AI-assisted execution
+- a demonstration of agent-style workflows
+- an exploration of LLMs applied to real program scenarios
+
+**This is not:**
+- a production system
+- a replacement for human judgment
+- a generic AI demo
+
+The focus is on structure, clarity, and decision quality.
 
 ## What’s included
 
