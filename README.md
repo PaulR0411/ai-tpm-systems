@@ -36,4 +36,4 @@ This project reflects a belief that the next phase of AI is not just smarter mod
 
 ## Author
 
-Paul Robinson
+Paul R.
