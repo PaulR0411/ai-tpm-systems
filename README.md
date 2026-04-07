@@ -34,6 +34,13 @@ Most AI discussions focus on models or features. This repo focuses on **executio
 
 This project reflects a belief that the next phase of AI is not just smarter models, but **better execution systems**.
 
+
+## End-to-End Example
+
+See: `demos/end-to-end-demo.md`
+
+This demonstrates how the system processes real inputs into structured outputs using an agent-style loop (plan → execute → evaluate).
+
 ## Author
 
 Paul R.
