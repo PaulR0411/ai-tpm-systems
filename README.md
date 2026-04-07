@@ -1,5 +1,7 @@
 # AI TPM Systems
 
+> A working system for using LLMs to run and scale technical program execution in complex, ambiguous environments.
+
 This repository explores how AI and LLMs can be used to design and scale execution systems for complex technical programs.
 
 It focuses on:
