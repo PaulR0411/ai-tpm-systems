@@ -65,7 +65,7 @@ The workflows in this repo mirror real scenarios:
 - incomplete requirements
 - misaligned priorities
 
-The goal is to make these situations more structured and decision-ready.
+These are the exact conditions where traditional program management struggles—and where structured, AI-assisted execution creates leverage.
 
 ---
 
@@ -95,6 +95,8 @@ This system uses LLMs to:
 
 The goal is not just automation, but improving **signal quality and decision clarity**.
 
+This mirrors how AI can be embedded directly into execution workflows—not as a tool on the side, but as part of the system that drives decisions.
+
 ---
 
 ## Core System Model
@@ -120,16 +122,10 @@ Program Inputs (tickets, updates, notes)
 
 ---
 
-## Closing Thought
-
-Execution in complex systems is not about more information—it’s about better structure.
-
-This project explores how AI can help create that structure.
 
 ## Author
 
-## Paul R.
+Paul R.
 
----
 
 
